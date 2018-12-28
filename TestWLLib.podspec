@@ -24,13 +24,14 @@ spec.framework = 'ImageIO'
 
 spec.default_subspec = 'WLLogan'
 spec.subspec 'WLLogan' do |wLLogan|
-    wLLogan.source_files = 'Classes/WLMapUtils.{h,m}'
+wLLogan.source_files = 'Classes/{WL}*.{h,m}'
+#'Classes/WLMapUtils.{h,m}'
 #wLLogan.source_files = 'Classes/WLWLMapUtils.*'
 end
 
-spec.subspec 'Person' do |person|
-    person.source_files = 'Classes/WLTestModel.*'
-end
+#spec.subspec 'Person' do |person|
+#person.source_files = 'Classes/WLTestModel.{h,m}'
+#end
 #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
 #spec.exclude_files = "Classes/Exclude"
 
